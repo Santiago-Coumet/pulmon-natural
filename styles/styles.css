@@ -1,3 +1,40 @@
+.navbar-mio{
+    background-color: rgb(8, 104, 8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-link{
+    
+    color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  }
+  @media (max-width: 991.98px) {
+  .navbar-items {
+    display: block;
+  }
+  .navbar-link{
+    display: block;
+    margin: 10px auto;
+  }
+  }
+.navbar-link:hover{
+    color: darkgrey;
+}
+.navbar-items{
+     align-items: center;
+}
+ @media (max-width: 991.98px) {
+  .navbar-items {
+    display: block;
+  }
+  }
+.navbar-collapse{
+  justify-content: center;
+}
+
 main{
     height: 1500px; 
 }
@@ -22,4 +59,52 @@ img {
     max-width: 100%;
     height: 250px;
     display: block;
+}
+h1{
+margin-top: 20px;
+color: aliceblue;
+text-align: center;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    text-align: justify;
+
+}
+body{
+background-image: url("../images/backGround.jpg"); 
+  background-size: cover;         
+  background-repeat: no-repeat;   
+  background-position: center;    
+  background-attachment: fixed;   
+font-family: 'Montserrat', sans-serif;
+}
+.main-link{
+
+     color: white;     
+  font-weight: bold;  
+  text-decoration: underline; 
+  text-align: center;
+}
+.burger{
+    border: none;
+}
+.footer{
+    background-color: rgb(8, 104, 8);
+    padding: 10px;
+}
+
+.li-mio{
+    list-style: none;     
+    margin: 0;            
+    padding: 0; 
+    color: aliceblue;
 }
