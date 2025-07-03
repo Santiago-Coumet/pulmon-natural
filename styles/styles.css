@@ -1,3 +1,13 @@
+header{
+    position: sticky;
+   
+    background-color: green;
+    top: 0;
+    margin: 0;
+    border: 0;
+    border: 2px solid black;
+    z-index: 999;
+}
 .navbar-mio{
     background-color: rgb(8, 104, 8);
     padding-top: 10px;
@@ -36,6 +46,7 @@
 }
 
 main{
+    padding-top: 40px;
     height: 1500px; 
 }
 
@@ -100,6 +111,7 @@ font-family: 'Montserrat', sans-serif;
 .footer{
     background-color: rgb(8, 104, 8);
     padding: 10px;
+    border: 2px solid black;
 }
 
 .li-mio{
@@ -107,4 +119,20 @@ font-family: 'Montserrat', sans-serif;
     margin: 0;            
     padding: 0; 
     color: aliceblue;
+}
+.a-footer{
+    color: white;     
+  font-weight: bold;  
+  text-decoration: underline; 
+  text-align: center;
+}
+.carrousel{
+    border-top: 100px;
+}
+.button-mio{
+    background-color: aliceblue;
+    border: solid 1px black;
+}
+.button-mio:hover{
+    color: darkgrey;
 }
